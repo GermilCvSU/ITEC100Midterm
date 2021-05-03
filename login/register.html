@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<center>
+	<div class="container">
+		<label id="labelRegistration">REGISTRATION</label>
+		<div class="innercontainer">
+			<form action="register.php" method="POST">
+					<input id="inputuser" name="inputuser" type="text" placeholder="username" autocomplete="off" required><br><br>
+					<input id="inputemail" name="inputemail" type="email" placeholder="email" autocomplete="nope" autocomplete="off" required><br><br>
+					<input id="inputpass" name="inputpass" type="text" placeholder="password" autocomplete="off" required oninvalid="this.setCustomValidity('Password requires: 8 characters, at least 1 number, at least 1 symbol, at least 1 uppercase letter.')" pattern="^((?=.*\d)(?=.*[A-Z])(?=.*\W).{8,8})$">
+					<input id="inputconfirmpass" name="inputconfirmpass" type="text" placeholder="confirm password" autocomplete="off" minlength="8" required><br><br>
+					<div class="buttoncontainer">
+						<button id="registerButton" type="submit" align="center">Register</button>
+					</div>
+			</form>
+		</div>
+	</div>
+	</center>
+	<link rel="stylesheet" href="register.css">
+</body>
+</html>

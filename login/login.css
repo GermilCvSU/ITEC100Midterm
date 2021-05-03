@@ -1,0 +1,36 @@
+#container
+{
+	padding-top:180px;
+	text-align:center;
+}
+
+#activitytitle
+{
+	font-family:arial;
+	font-size:30px;
+	margin-bottom:65px;
+}
+
+#inp
+{
+	margin-top:10px;
+	font-size:30px;
+	text-align:center;
+}
+
+#loginButton	
+{
+	margin-top:25px;
+	font-size:25px;
+}
+
+#divider
+{
+	margin-top:9%;
+}
+
+#fullname
+{
+	font-family:arial;
+	color:rgb(100,100,100);
+}
